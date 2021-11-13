@@ -30,9 +30,6 @@ def main():
             url = 'http://10.0.3.175/26/off'
             http.request(url, 'GET')
 
-        elif checkInt == 3:
-            flash()
-
 
 if __name__ == "__main__":
     main()
